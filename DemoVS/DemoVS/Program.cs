@@ -2,11 +2,16 @@
 
 namespace DemoVS
 {
-    class Program
+      class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double Calc = AreaOfRectangle(6,5);
+            Console.WriteLine(Calc);
+        }
+        public static double AreaOfRectangle(double a, double b)
+        {
+            return a * b;
         }
     }
 }
